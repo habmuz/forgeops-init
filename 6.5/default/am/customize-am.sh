@@ -12,6 +12,6 @@ echo "AM customization script"
 
 mkdir -p /var/tmp/patch 
 cp /git/config/6.5/default/am/patch/idxAuthRequestNode-1.3.0-SNAPSHOT.jar /var/tmp/patch
-cp -r /var/tmp/patch/idxAuthRequestNode-1.3.0-SNAPSHOT.jar "$CATALINA_HOME"/webapps/ROOT/openam/WEB-INF/lib
+cp -r /var/tmp/patch/idxAuthRequestNode-1.3.0-SNAPSHOT.jar "$CATALINA_HOME"/webapps/ROOT/WEB-INF/lib
 
 echo "AM customization script end"
