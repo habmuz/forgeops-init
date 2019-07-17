@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+!/usr/bin/env bash
 # This is a placeholder that you can replace with your own script to copy in assets such as images
 # or a web.xml file.
 # Some Environment variables that are available:
@@ -8,7 +8,7 @@
 # NAMESPACE: The Kubernetes namespace
 echo "AM customization script"
 
-#CATALINA_HOME:$CATALINA_HOME/webapps/openam
+CATALINA_HOME:$CATALINA_HOME/webapps/openam
 
 mkdir -p /var/tmp/patch 
 cp /git/config/6.5/default/am/patch/* /var/tmp/patch
